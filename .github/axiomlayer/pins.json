@@ -1,0 +1,94 @@
+{
+  "schema": "axiomlayer-npm-node-integration-v1",
+  "policy": {
+    "repository": "AxiomLayer/dotfiles",
+    "pullRequest": 49,
+    "revision": 1
+  },
+  "npm": {
+    "upstream": "npm/cli",
+    "repository": "AxiomLayer/npm-cli",
+    "tag": "v11.19.0",
+    "version": "11.19.0",
+    "commit": "bfacd33ccbcd908480610703b60455d2da5b57a9",
+    "sourceArchive": {
+      "url": "https://codeload.github.com/AxiomLayer/npm-cli/tar.gz/bfacd33ccbcd908480610703b60455d2da5b57a9",
+      "sha256": "335748f7d1ca1ec8db8a00cc46ec7c846f87d7c19817a8b8afbd81316c555ce4"
+    },
+    "packageJson": {
+      "url": "https://raw.githubusercontent.com/AxiomLayer/npm-cli/bfacd33ccbcd908480610703b60455d2da5b57a9/package.json",
+      "sha256": "09dfcf187178ce1ab3ea6194c80d3ae082ad2a86dc1269ac963f94429e718122"
+    }
+  },
+  "node": {
+    "upstream": "nodejs/node",
+    "repository": "AxiomLayer/node",
+    "tag": "v24.21.0",
+    "version": "24.21.0",
+    "commit": "955266bfdd854cd280dffd47548673914484e4c0",
+    "versionHeader": {
+      "url": "https://raw.githubusercontent.com/AxiomLayer/node/955266bfdd854cd280dffd47548673914484e4c0/src/node_version.h",
+      "sha256": "bd056729fddf4bfa58687036219f07417c334c4ecfcb513ac256fa254451bfc9"
+    },
+    "bundledNpmPackageJson": {
+      "url": "https://raw.githubusercontent.com/AxiomLayer/node/955266bfdd854cd280dffd47548673914484e4c0/deps/npm/package.json",
+      "sha256": "09dfcf187178ce1ab3ea6194c80d3ae082ad2a86dc1269ac963f94429e718122"
+    },
+    "distributionBaseUrl": "https://nodejs.org/dist/v24.21.0",
+    "shasums": {
+      "file": "SHASUMS256.txt",
+      "sha256": "f410428039e2c922a14058df067a4482691c9304a5c01a75847f9f3f2d3307f6"
+    },
+    "assets": {
+      "darwin-aarch64": {
+        "file": "node-v24.21.0-darwin-arm64.tar.gz",
+        "format": "tar.gz",
+        "sha256": "bed7eea5325e1108f32ce5228ddd6a5f0f08a499ee42aa7442aea583702f6057",
+        "binarySha256": "e4b5a3af0e05c75de2eae013904145f40fe7fc2a6e6f17510128bf45cca4e79b",
+        "npmTreeSha256": "83f15ebe8a96df2e5cc4c450d0c7258b74cbb5357cf832451e9d9dde3c2dfa73"
+      },
+      "darwin-x86_64": {
+        "file": "node-v24.21.0-darwin-x64.tar.gz",
+        "format": "tar.gz",
+        "sha256": "1462cb3b3046b815cf8ea436d3da450ec1a9f11dac7e5a46b0ada5305d7e8097",
+        "binarySha256": "7abcf39bd37ab251015337ff75304d7555f0d8e88c6e0fbf04bce8ce34636f49",
+        "npmTreeSha256": "83f15ebe8a96df2e5cc4c450d0c7258b74cbb5357cf832451e9d9dde3c2dfa73"
+      },
+      "linux-aarch64": {
+        "file": "node-v24.21.0-linux-arm64.tar.gz",
+        "format": "tar.gz",
+        "sha256": "724282c3b43aec998aa9527380465b45d229e021b58035f5f4f63095eabfe5d5",
+        "binarySha256": "0f8949d1028f6d61506b2d5bc57e7e6fe893d7b1997509b7847294fc9c616584",
+        "npmTreeSha256": "83f15ebe8a96df2e5cc4c450d0c7258b74cbb5357cf832451e9d9dde3c2dfa73"
+      },
+      "linux-x86_64": {
+        "file": "node-v24.21.0-linux-x64.tar.gz",
+        "format": "tar.gz",
+        "sha256": "6e1db87ef58b8819e5d5402eff1536491b18edd8eb7bee5ef7897876e88dc5ff",
+        "binarySha256": "7fde7b8afa198da66257f42ee2001d874c7355631e6d1579a5fb5ef1f246df4c",
+        "npmTreeSha256": "83f15ebe8a96df2e5cc4c450d0c7258b74cbb5357cf832451e9d9dde3c2dfa73"
+      },
+      "windows-aarch64": {
+        "file": "node-v24.21.0-win-arm64.zip",
+        "format": "zip",
+        "sha256": "8779b1bde1d39f8d420e3b57aa657b39891af434d3de44a919044cec06785921",
+        "binarySha256": "dff59da18b6ffe1bf1ca99e1d2af4906080c481740619f5b5098c0fca28bd9b7",
+        "npmTreeSha256": "2672b6e00dc2f5b702853c5ec0bd044b38ab1d5011e7782a695e8f933ae1b09c"
+      },
+      "windows-x86_64": {
+        "file": "node-v24.21.0-win-x64.zip",
+        "format": "zip",
+        "sha256": "158f7685b44de51f6c0df1d153526cbcd3e1bc739a8dfc607721cef75de9e541",
+        "binarySha256": "ba4e6d110e8c1592a1ecd390f6b05f3da124b13871a5be62b341a07a853c6c32",
+        "npmTreeSha256": "2672b6e00dc2f5b702853c5ec0bd044b38ab1d5011e7782a695e8f933ae1b09c"
+      }
+    }
+  },
+  "nixpkgs": {
+    "upstream": "NixOS/nixpkgs",
+    "version": "nixos-26.05",
+    "commit": "c3eea5b2156db11c7eeeada3dc737711255b253e",
+    "archiveUrl": "https://codeload.github.com/NixOS/nixpkgs/tar.gz/c3eea5b2156db11c7eeeada3dc737711255b253e",
+    "archiveSha256": "d709bfaf611f804a7889c0aa5de349f05e03d7453e9166e9b87338bc7e51f5e0"
+  }
+}
