@@ -21,6 +21,7 @@ permissions:
 
 jobs:
   publish:
+    if: github.repository_owner == 'npm'
     strategy:
       fail-fast: false
       matrix:
